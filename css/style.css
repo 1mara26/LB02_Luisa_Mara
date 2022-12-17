@@ -4,12 +4,18 @@
     font-family: 'Josefin Sans', sans-serif;
     box-sizing: border-box;
 }
+
+.artists{
+    background-color: #101010;
+}
+
 .hero{
     height: 100vh;
     width: 100%;
-    background-image: url(../img/background.jpg);
+    background-image: url(../img/DPR_IAN.png);
     background-size: cover;
     background-position: center;
+
 }
 nav{
     display: flex;
