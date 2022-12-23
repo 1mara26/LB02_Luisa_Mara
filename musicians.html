@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Musicians</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="artists">
+<header>
+  <div>
+    <nav>
+      <h2 class="logo">Sunset<span>Concerts</span></h2>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="musicians.html">Artists</a></li>
+        <li><a href="contest.html">Contest</a></li>
+        <li><a href="about_us.html">About us</a></li>
+      </ul>
+      <a href="#" class="btn">Login</a>
+    </nav>
+  </div>
+</header>
+<div class="slideshow-container fade">
+
+  <!-- Full images with numbers and message Info -->
+  <div class="Containers">
+    <div class="MessageInfo">1 / 6</div>
+    <img src="img/Arctic_Monkeys.png" style="width:100%">
+  </div>
+
+  <div class="Containers">
+    <div class="MessageInfo">2 / 6</div>
+    <img src="img/Cigarettes_After_Sex.png" style="width:100%">
+  </div>
+
+  <div class="Containers">
+    <div class="MessageInfo">3 / 6</div>
+    <img src="img/DPR_Ian1.png" style="width:100%">
+  </div>
+
+  <div class="Containers">
+    <div class="MessageInfo">4 / 6</div>
+    <img src="img/Harry_Styles.png" style="width:100%">
+  </div>
+
+  <div class="Containers">
+    <div class="MessageInfo">5 / 6</div>
+    <img src="img/The_Rose.png" style="width:100%">
+  </div>
+
+  <div class="Containers">
+    <div class="MessageInfo">6 / 6</div>
+    <img src="img/The_Weeknd.png" style="width:100%">
+  </div>
+
+  <!-- Back and forward buttons -->
+  <a class="Back" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="forward" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The circles/dots -->
+<div style="text-align:center">
+  <span class="dots" onclick="currentSlide(1)"></span>
+  <span class="dots" onclick="currentSlide(2)"></span>
+  <span class="dots" onclick="currentSlide(3)"></span>
+  <span class="dots" onclick="currentSlide(4)"></span>
+  <span class="dots" onclick="currentSlide(5)"></span>
+  <span class="dots" onclick="currentSlide(6)"></span>
+</div>
+
+</body>
+<script src="index.js"></script>
+</html>
