@@ -424,3 +424,7 @@ footer p:nth-child(2){
     to {opacity: 2}
 }
 
+.musicians {
+    background-color: #191919;
+    margin-top: 50px;
+}
