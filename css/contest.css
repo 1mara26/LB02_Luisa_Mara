@@ -25,8 +25,8 @@ p {
 
 
 .btn{
-    background-color:#f90000;
-    color: white;
+    background-color: red;
+    color: #ffffff;
     text-decoration: none;
     border: 2px solid transparent;
     font-weight: bold;
@@ -34,8 +34,12 @@ p {
     border-radius: 30px;
     transition: transform .3s;
 }
-.btn:hover{
-    transform: scale(1.2);
+
+.enterbtn {
+    color: #f90000;
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px 55px;
 }
 
 
@@ -106,3 +110,4 @@ li span {
         font-size: calc(3.375rem * var(--smaller));
     }
 }
+
