@@ -51,6 +51,7 @@ body {
 .form__input,
 .form__button {
     font: 500 1rem 'Quicksand', sans-serif;
+    text-decoration: none;
 }
 
 .form--hidden {
@@ -118,7 +119,7 @@ body {
 
 .form__button {
     width: 100%;
-    padding: 1rem 2rem;
+    padding: 1rem 10.2rem;
     font-weight: bold;
     font-size: 1.1rem;
     color: #ffffff;
