@@ -1,6 +1,6 @@
 function checkPassword(event) {
     fetch("login.json") // Stellt Verbindung zu JSON File her
-        .then(response => response.json()) // Antwort wird epmfangen und als JSON weitergegeben
+        .then(response => response.json()) // Antwort wird empfangen und als JSON weitergegeben
         .then(data => {
             const correctEmail = data.email; // Die Email und Passwort aus dem JSON File werden ausgelesen und Konstanten zugewiesen
             const correctPw = data.password;
