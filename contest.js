@@ -15,7 +15,6 @@ btn.addEventListener('click', function () {
 
 
 
-
     // input = das was man eingibt, falls dies kleiner ist als die random Number dann kommt die Nachricht "You guessed too low"
 else if (input < number) {
     output.innerHTML = "You guessed too low"
