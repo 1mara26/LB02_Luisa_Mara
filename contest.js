@@ -12,13 +12,20 @@ btn.addEventListener('click', function () {
         output.innerHTML = `You guessed right, your number was ${number}`
     }
 
+
+
+
     // input = das was man eingibt, falls dies kleiner ist als die random Number dann kommt die Nachricht "You guessed too low"
 else if (input < number) {
     output.innerHTML = "You guessed too low"
 
-    };  //Falls Inputfeld/nummer ist grösser als die Zahl kommt "You guessed to high"
+    };
+
+
+//Falls Inputfeld/nummer ist grösser als die Zahl kommt "You guessed to high"
 if (input > number ){
     output.innerHTML = "You guessed too high"
 }
-
+// "Input is not a number,also wenn Leute ein Wort eingeben dann kommt diese Meldung
+    if (isNaN(input) == true) { output.innerHTML="Input is not a number" }
 })
