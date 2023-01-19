@@ -18,7 +18,7 @@ function getTimeRemaining(endtime) {
 }
 
 
-// Hier wird die Funktion um die Uhr zu initialisieren ersdtellt
+// Hier wird die Funktion um die Uhr zu initialisieren erstellt
 function initializeClock(id, endtime) {
 
     //Die spans aus dem HTML werden selektiert und Konstanten zugewiesen
