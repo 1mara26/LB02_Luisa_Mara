@@ -34,10 +34,25 @@ div {
 
 form {
     background-color: white;
+    padding-top: 30px;
+    padding-left: 20px;
 }
 
 h2 {
     font-size: 80px;
     color: red;
     padding-top: 250px;
+}
+
+#password{
+    background-color: white;
+
+}
+
+#email{
+    background-color: white;
+}
+
+.submit{
+    margin: 70px;
 }
