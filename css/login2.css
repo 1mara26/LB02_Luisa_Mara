@@ -5,6 +5,10 @@
     font-family: 'Josefin Sans', sans-serif;
     box-sizing: border-box;
 }
+body {
+    display: flex;
+    justify-content: center;
+}
 div {
     background-color: white;
 }
@@ -30,4 +34,10 @@ color:white;
 
 form {
     background-color: white;
+}
+
+h2 {
+    font-size: 80px;
+    color: red;
+    padding-top: 250px;
 }
