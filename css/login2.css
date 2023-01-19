@@ -11,15 +11,16 @@ body {
 }
 div {
     background-color: white;
-}
 
+}
 .container {
-    width: 400px;
-    max-width: 400px;
-    margin: 1rem;
+    width: 550px;
+    max-width: 550px;
+border-radius: 8px;
     padding: 2rem;
     box-shadow: 0 0 40px rgba(255, 255, 255, 0.2);
     background-color: #ffffff;
+    margin-top: 180px;
 
 }
 
@@ -27,15 +28,16 @@ div {
     font-size: 25px;
     background-color: red;
     color:white;
-    border-radius: 210px;
-    width: 150px;
+    border-radius: 5px;
+    width: 460px;
     height: 50px;
 }
 
 form {
     background-color: white;
-    padding-top: 30px;
-    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 24px;
+    padding-left: 10px;
 }
 
 h2 {
@@ -46,13 +48,27 @@ h2 {
 
 #password{
     background-color: white;
+    border-radius:5px;
+    width: 460px;
+    height: 50px;
 
 }
 
 #email{
     background-color: white;
+    border-radius: 5px;
+    width: 460px;
+    height: 50px;
 }
 
 .submit{
-    margin: 70px;
+    margin-top: 15px;
+}
+
+p {
+    font-size: 12px;
+    background-color: white;
+    color: black;
+    margin-top: 15px;
+    padding-bottom: 4px;
 }
