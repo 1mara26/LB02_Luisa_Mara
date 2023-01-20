@@ -1,8 +1,7 @@
-
 let btn = document.getElementById('btn');
 let output = document.getElementById('outputtext')
 
-//Hier wird der Parameter math.floor und math.random verwendet, floor = Zahlen aufrunden, random (zB wenn man 100 eingibt steht es u guessed to low)
+//Hier wird der Parameter math.floor und math.random verwendet, floor = Zahlen abrunden, random (zB wenn man 100 eingibt steht es u guessed to low)
 let number = [Math.floor(Math.random ()* 100)]
 
 btn.addEventListener('click', function () {
